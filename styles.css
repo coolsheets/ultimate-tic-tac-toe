@@ -1,0 +1,40 @@
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.smallBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.smallBoard.won {
+    background-color: lightgreen;
+}
+
+.smallBoard.highlighted {
+    border-color: blue;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.won .cell {
+    pointer-events: none;
+}
