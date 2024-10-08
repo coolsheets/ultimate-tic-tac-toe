@@ -41,6 +41,7 @@ Control the Center: Winning the center small board can provide strategic advanta
 Block Opponents: Always be mindful of where your opponent is trying to create a row of three and block them by sending them to boards that are already advantageous for you.
 Plan Ahead: Think about how your move will affect your opponent's next move and plan your strategy accordingly.
 ## Visual Representation:
+```
 +-------+-------+-------+
 | Board1| Board2| Board3|
 |       |       |       |
@@ -54,6 +55,7 @@ Plan Ahead: Think about how your move will affect your opponent's next move and 
 |       |       |       |
 |       |       |       |
 +-------+-------+-------+
+```
 Each Board1 to Board9 represents a smaller Tic-Tac-Toe game within the larger grid.
 
 ## Final Notes:
