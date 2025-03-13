@@ -1,0 +1,17 @@
+.board {
+    display: grid;
+    grid: repeat(3, 60px) / auto-flow 80px;
+    border: 1;
+  }
+
+  .row {
+    grid: 30%;
+  }
+
+  .column {
+    grid: 30%
+  }
+
+  .cell {
+    grid: 30%
+  }
